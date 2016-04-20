@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/add_user_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FullName"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/font_primary_size"
+        />
+
+    <EditText
+        android:id="@+id/add_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/font_primary_size"
+        />
+
+    <EditText
+        android:id="@+id/add_user_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:layout_marginBottom="10dp"
+        android:textSize="@dimen/font_primary_size"
+        />
+
+    <Spinner
+        android:id="@+id/add_user_spinner_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:entries="@array/gender_arrays"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/add_user_button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:background="@drawable/selector_button_send"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_primary_size"
+        />
+
+</LinearLayout>

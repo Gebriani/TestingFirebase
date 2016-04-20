@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestingFirebase</string>
+    <string-array name="gender_arrays">
+        <item>Choose Gender</item>
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+
+</resources>
